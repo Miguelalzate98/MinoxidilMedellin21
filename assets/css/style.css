@@ -24,10 +24,6 @@ body {
 #wpp{
   height: 100%;
   width: 100%;
-  background-color: #25d366;
-  border-radius: 50%;
-  width: 33px;
-  height: 26px;
 }
 #face{
   position: fixed;
@@ -39,10 +35,6 @@ body {
 #fb{
   height: 100%;
   width: 100%;
-  background-color: #3b5998;
-  border-radius: 50%;
-  width: 33px;
-  height: 26px;
 }
 
 #insta{
@@ -56,12 +48,35 @@ body {
 #itg{
   height: 100%;
   width: 100%;
-  background-color: #e1306c;
-  border-radius: 50%;
-  width: 33px;
-  height: 26px;
-  
 }
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .btn .btn-success {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .btn .btn-success {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .btn .btn-success {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .btn .btn-success {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+
 
 
 
@@ -495,39 +510,35 @@ p {
 # Hero
 --------------------------------------------------------------*/
 
-
-@media only screen and (max-width: 992px) {
-  #hero {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #hero {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  #hero {
-    width: 100%;
-    height: auto;
-  }
-}
-@media only screen and (max-width: 250px) {
-  #hero {
-    width: 100%;
-    height: auto;
-  }
-}
-
-#hero {
+@media (max-width: 1700px){  
+.home {
   background: url("../img/Diseño\ sin\ título\(2\).png ") repeat scroll center center/cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
+} }
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .home {
+    height: 400px;
+  }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home {
+    height: 350px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .home  {
+    height: 350px;
+  }
+}
+@media (max-width: 480px) {
+  .home {
+    height: 200px;
+  }
+}
+
+
+
 
 #hero .hero-content {
   height: 100vh;
@@ -642,6 +653,30 @@ p {
   padding-bottom: 3rem;  
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  main {
+    height: 400px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  main {
+    height: 350px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  main {
+    height: 300px;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    height: 200px;
+  }
+}
+
+
 
 #about .div-img-bg {
   padding-top: 100px;
