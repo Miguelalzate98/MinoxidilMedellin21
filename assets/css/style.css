@@ -501,6 +501,10 @@ p {
 # Hero
 --------------------------------------------------------------*/
 
+.home{
+  overflow-y: hidden;
+}
+
 @media (max-width: 1700px){  
 .home {
   background: url("../img/Diseño\ sin\ título\(2\).png ") repeat scroll center center/cover;
