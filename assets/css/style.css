@@ -1,3 +1,10 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+
+
 
 body {
   background: #ffffff;
@@ -11,12 +18,14 @@ body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
 
 #whatsapp-btn {
   position: fixed;
-  bottom: 20px;
-  left: 0px;
+  bottom: 44px;
+  left: -15px;
   z-index: 9999;
   background-color: transparent;  
 }
@@ -28,19 +37,21 @@ body {
 #face{
   position: fixed;
   bottom: 80px;
-  left: 0px;
+  left: -15px;
   z-index: 9999;
   background-color: transparent;
+
 }
 #fb{
   height: 100%;
   width: 100%;
+  
 }
 
 #insta{
   position: fixed;
   bottom: 140px;
-  left: 0px;
+  left: -15px;
   z-index: 9999;
   background-color: transparent;
 }
@@ -50,40 +61,6 @@ body {
   width: 100%;
 }
 
-
-@media (min-width: 1024px) and (max-width: 1440px) {
-  .wpp .fb .itg {
-    height: 30px;
-    width: 30px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .wpp .fb .itg {
-    height: 30px;
-    width: 30px;
-  }
-}
-@media (min-width: 480px) and (max-width: 768px) {
-  .wpp .fb .itg {
-    height: 30px;
-    width: 30px;
-  }
-}
-@media (max-width: 480px) {
-  .wpp .fb .itg {
-    height: 30px;
-    width: 30px;
-  }
-}
-
-
-
-
-@media only screen and (max-width: 767px) {
-  body {
-      overflow-x: hidden;
-  }
-}
 
 
 
@@ -280,11 +257,13 @@ p {
 
 #header .logo a {
   color: #4e4747;
+
 }
 
 #header .logo img {
-  max-height: 60px;
-  width: 100px;
+  max-height: 80px;
+  width: 200px;
+
 }
 
 @media (max-width: 992px) {
@@ -292,6 +271,8 @@ p {
     border: 0;
   }
 }
+
+
 
 
 /*--------------------------------------------------------------
@@ -548,6 +529,10 @@ p {
 }
 
 
+
+
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
   
@@ -564,10 +549,12 @@ p {
   .hero-content {
    
     padding-bottom: 450px;
-    font-size: 10px;
-  
   }
 }
+
+
+
+
 
 
 
@@ -689,6 +676,9 @@ p {
   padding-bottom: 3rem;  
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
+
 
 
 
