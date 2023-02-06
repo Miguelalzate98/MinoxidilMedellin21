@@ -1,10 +1,7 @@
 *{
   margin: 0%;
   padding: 0%;
-  overflow-x: hidden;
 }
-
-
 
 body {
   background: #ffffff;
@@ -19,6 +16,12 @@ body {
   padding: 0;
   box-sizing: border-box;
   
+}
+header{
+  overflow-x: hidden;
+}
+main{
+  overflow-x: hidden;
 }
 
 
@@ -501,6 +504,9 @@ p {
 # Hero
 --------------------------------------------------------------*/
 
+
+
+
 .home{
   overflow-y: hidden;
 }
@@ -676,9 +682,10 @@ p {
 }
 .nosotros{
   text-align: center;
-  color: black;
-  padding-bottom: 3rem;  
+  color: black;  
   font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: -60px;
+  margin-bottom: 20px;
 }
 
 
@@ -1643,3 +1650,8 @@ blockquote {
   margin-bottom: 33px;
 }
 
+
+.swiper-slide .services-block{ 
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
